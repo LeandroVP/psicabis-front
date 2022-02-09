@@ -6,11 +6,8 @@ const routes: Routes = [
     path: '',
     // canActivateChild: [AuthenticationGuard],
     children: [
-      { path: '', pathMatch: 'full', redirectTo: '/donations' },
-      // {
-      //   path: 'login',
-      //   component: LoginComponent
-      // },
+      { path: '', pathMatch: 'full', redirectTo: 'dashboard' },
+
       // {
       //   path: '',
       //   component: BaseComponent,

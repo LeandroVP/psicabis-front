@@ -1,0 +1,18 @@
+@import "app_theme";
+
+#header-logo {
+  height: inherit;
+  max-height: 200px;
+  margin: 0.5em;
+}
+
+.shrink {
+  height: 100px;
+}
+
+nav {
+  height: 200px;
+  background-color: $white;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}

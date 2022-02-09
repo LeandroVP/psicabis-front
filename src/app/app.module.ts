@@ -10,7 +10,7 @@ import { ApiUrlInterceptor } from './interceptors/api.url.interceptor';
 
 @NgModule({
   declarations: [
-    AppComponent,
+    AppComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,7 @@
+@import "app_theme";
+@import "functions";
+button {
+  background-color: rgba($primary, 0.5);
+  color: tint-color($primary, 10%);
+}
+// https://getbootstrap.com/docs/5.0/customize/sass/#maps-and-loops

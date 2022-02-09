@@ -1,0 +1,13 @@
+// App Colors
+$primary: #00869e;
+$background: #c1d8e1;
+$secondary: #3e3e3d;
+$white: #f7f7f7;
+
+$theme-colors: (
+  "primary": $primary,
+  "secondary": $secondary,
+  "success": $white,
+);
+@import "functions";
+@import "variables";

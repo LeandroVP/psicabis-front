@@ -1,17 +1,21 @@
 import { CommonModule } from '@angular/common';
 import { NgModule } from "@angular/core";
 import { FormsModule, ReactiveFormsModule } from "@angular/forms";
+import { ScrollingModule } from '@angular/cdk/scrolling';
 
 @NgModule({
-  declarations: [],
+  declarations: [
+  ],
   imports: [
     FormsModule,
-    CommonModule
+    CommonModule,
+    ScrollingModule
   ],
   exports: [
     FormsModule,
     ReactiveFormsModule,
-    CommonModule
+    CommonModule,
+    ScrollingModule
   ]
 })
 export class SharedModule { }
